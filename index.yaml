@@ -1,3 +1,18 @@
 apiVersion: v1
 entries:
   argo-app-of-apps:
+  - apiVersion: v2
+    created: "2022-09-25T03:49:29.426607256Z"
+    description: ArgoCD app of apps chart.
+    digest: 4337273e88bdcfe379162f4a217e1a4dd5bbc6f5a523e05f8aa4f19d3c45c930
+    home: https://github.com/kaplan-michael/charts
+    maintainers:
+    - email: michael@kaplan.sh
+      name: Michael Kaplan
+    name: argo-app-of-apps
+    sources:
+    - https://github.com/kaplan-michael/charts/tree/master/charts/argo-app-of-apps
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/argo-app-of-apps-1.0.0/argo-app-of-apps-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-09-25T03:49:29.426611756Z"
