@@ -1,0 +1,14 @@
+namespace: infra
+
+rootProject:
+  name: infra
+  description: Infrastructure apps
+  sourceRepos:
+    - "*"
+
+rootApp:
+  name: infra-apps
+  source:
+    repoURL: https://github.com/kaplan-michael/k8s-infra.git
+    path: infra
+

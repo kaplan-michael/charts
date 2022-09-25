@@ -1,0 +1,10 @@
+apiVersion: v2
+description: ArgoCD app of apps chart. 
+home: https://github.com/kaplan-michael/charts
+maintainers:
+  - email: michael@kaplan.sh
+    name: Michael Kaplan
+name: argo-app-of-apps
+sources:
+  - https://github.com/kaplan-michael/charts/tree/master/charts/argo-app-of-apps
+version: 1.0.0

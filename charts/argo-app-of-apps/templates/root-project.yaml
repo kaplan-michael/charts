@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: {{ .Values.rootProject.name }}
+  namespace: {{ .Release.namespace }}
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  description: 
+  # Allow manifests to deploy from any Git repos
+  sourceRepos: 
+  {{- range .Values.rootProject.sourceRepos }}
+    - {{. |quote }}
+  {{- end }}
+
