@@ -2,6 +2,20 @@ apiVersion: v1
 entries:
   argo-app-of-apps:
   - apiVersion: v2
+    created: "2022-09-29T18:32:59.086811649Z"
+    description: ArgoCD app of apps chart.
+    digest: 8e712affae8e9adf0ab560dfa507aa6cffdc0e91445cf47b9e46e88c5041455e
+    home: https://github.com/kaplan-michael/charts
+    maintainers:
+    - email: michael@kaplan.sh
+      name: Michael Kaplan
+    name: argo-app-of-apps
+    sources:
+    - https://github.com/kaplan-michael/charts/tree/master/charts/argo-app-of-apps
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/argo-app-of-apps-1.1.0/argo-app-of-apps-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     created: "2022-09-25T03:49:29.426607256Z"
     description: ArgoCD app of apps chart.
     digest: 4337273e88bdcfe379162f4a217e1a4dd5bbc6f5a523e05f8aa4f19d3c45c930
@@ -30,4 +44,4 @@ entries:
     urls:
     - https://github.com/kaplan-michael/charts/releases/download/fleetlock-1.0.0/fleetlock-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-29T15:32:59.653137011Z"
+generated: "2022-09-29T18:32:59.087067048Z"
