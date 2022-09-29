@@ -3,6 +3,7 @@ namespace: infra
 rootProject:
   name: infra
   description: Infrastructure apps
+# Allow manifests to deploy from any Git repos
   sourceRepos:
     - "*"
 
@@ -10,5 +11,5 @@ rootApp:
   name: infra-apps
   source:
     repoURL: https://github.com/kaplan-michael/k8s-infra.git
-    path: infra
+    path: infra/_apps
 
