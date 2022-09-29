@@ -1,0 +1,10 @@
+apiVersion: v2
+description: Poseidon fleetlock helm chart. 
+home: https://github.com/kaplan-michael/charts
+maintainers:
+  - email: michael@kaplan.sh
+    name: Michael Kaplan
+name: fleetlock
+sources:
+  - https://github.com/poseidon/fleetlock
+version: 1.0.0
