@@ -15,4 +15,19 @@ entries:
     urls:
     - https://github.com/kaplan-michael/charts/releases/download/argo-app-of-apps-1.0.0/argo-app-of-apps-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-25T03:49:29.426611756Z"
+  fleetlock:
+  - apiVersion: v2
+    created: "2022-09-29T15:32:59.653120611Z"
+    description: Poseidon fleetlock helm chart.
+    digest: a8b6bc380bd7df766fbd50170f2eaa97d8b04cbdc12bbb4871764c334584f5aa
+    home: https://github.com/kaplan-michael/charts
+    maintainers:
+    - email: michael@kaplan.sh
+      name: Michael Kaplan
+    name: fleetlock
+    sources:
+    - https://github.com/poseidon/fleetlock
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/fleetlock-1.0.0/fleetlock-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-09-29T15:32:59.653137011Z"
