@@ -72,4 +72,13 @@ entries:
     urls:
     - https://github.com/kaplan-michael/charts/releases/download/fleetlock-1.0.0/fleetlock-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-29T23:07:37.04213772Z"
+  tergum-cronjob:
+  - apiVersion: v1
+    created: "2022-10-17T22:48:15.240775707Z"
+    description: Tergum Cronjob
+    digest: bcc0e2d4a3d9dc58430754f06eac6ba97d691a549e65ef47edb85905baf24054
+    name: tergum-cronjob
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/tergum-cronjob-0.3.0-dev/tergum-cronjob-0.3.0-dev.tgz
+    version: 0.3.0-dev
+generated: "2022-10-17T22:48:15.240968509Z"
