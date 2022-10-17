@@ -81,4 +81,12 @@ entries:
     urls:
     - https://github.com/kaplan-michael/charts/releases/download/tergum-cronjob-0.3.0-dev/tergum-cronjob-0.3.0-dev.tgz
     version: 0.3.0-dev
-generated: "2022-10-17T22:48:15.240968509Z"
+  - apiVersion: v1
+    created: "2022-10-17T23:01:35.492553264Z"
+    description: Tergum Cronjob
+    digest: e23abe6bf6080513a8956544425eabb7e111a96299a64d5e8e86325b27da5e27
+    name: tergum-cronjob
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/tergum-cronjob-0.2.0-dev/tergum-cronjob-0.2.0-dev.tgz
+    version: 0.2.0-dev
+generated: "2022-10-17T23:01:35.492589865Z"
