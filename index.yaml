@@ -74,6 +74,14 @@ entries:
     version: 1.0.0
   tergum-cronjob:
   - apiVersion: v1
+    created: "2022-10-18T13:25:50.789438229Z"
+    description: Tergum Cronjob
+    digest: 2c399663926e66de197012216351b8cd9ebf6a25cefcd70c46dd567c5ff77b03
+    name: tergum-cronjob
+    urls:
+    - https://github.com/kaplan-michael/charts/releases/download/tergum-cronjob-1.1.0/tergum-cronjob-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
     created: "2022-10-17T23:06:11.872074068Z"
     description: Tergum Cronjob
     digest: b14524299b1e3e4370cbd732875bc0886b59e611102e64d22b602de7303ec73f
@@ -97,4 +105,4 @@ entries:
     urls:
     - https://github.com/kaplan-michael/charts/releases/download/tergum-cronjob-0.2.0-dev/tergum-cronjob-0.2.0-dev.tgz
     version: 0.2.0-dev
-generated: "2022-10-17T23:06:11.872173668Z"
+generated: "2022-10-18T13:25:50.789761528Z"
